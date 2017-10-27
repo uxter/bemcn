@@ -1,6 +1,6 @@
 {
-  "name": "bemcb",
-  "version": "1.0.0",
+  "name": "bemcn",
+  "version": "1.0.1",
   "description": "bemcn is an utility for creating BEM class names.",
   "main": "bemcn.js",
   "scripts": {
