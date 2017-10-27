@@ -1,0 +1,39 @@
+{
+  "name": "bemcb",
+  "version": "1.0.0",
+  "description": "bemcn is an utility for creating BEM class names.",
+  "main": "bemcn.js",
+  "scripts": {
+    "test": "mocha --opts tests/test-mocha.opts",
+    "test-watch": "nodemon --watch ./tests --exec 'npm run test'",
+    "coverage": "nyc --reporter=lcov npm run test",
+    "coverage-server": "http-server -a 127.0.0.1 -p 2017 ./coverage/lcov-report",
+    "coverage-livereload": "livereload ./coverage -e html -w 1000",
+    "coverage-watch": "nodemon --watch ./tests --exec 'npm run coverage'",
+    "watch": "concurrently 'npm run coverage-watch' 'npm run coverage-server' 'npm run coverage-livereload'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uxter/bemcn.git"
+  },
+  "keywords": [
+    "bem",
+    "classname"
+  ],
+  "author": "Vasiliy Shilov <shcoder.ru@ya.ru> (https://github.com/uxter)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uxter/fluxter/issues"
+  },
+  "homepage": "https://github.com/uxter/bemcn#readme",
+  "devDependencies": {
+    "codecov": "^3.0.0",
+    "concurrently": "^3.5.0",
+    "expect": "^21.2.1",
+    "http-server": "^0.10.0",
+    "livereload": "^0.6.3",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1",
+    "nyc": "^11.2.1"
+  }
+}

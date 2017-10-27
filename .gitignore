@@ -1,0 +1,7 @@
+.idea
+*.log
+*.log.*
+*.lcov
+node_modules
+.nyc_output
+coverage

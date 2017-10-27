@@ -1,0 +1,6 @@
+node_modules
+.idea
+.gitignore
+.travis.yml
+.nyc_output
+coverage
