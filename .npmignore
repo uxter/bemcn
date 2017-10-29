@@ -4,3 +4,4 @@ node_modules
 .travis.yml
 .nyc_output
 coverage
+README.hbs

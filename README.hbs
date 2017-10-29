@@ -68,74 +68,7 @@ var bcn = bemcn('__', '--');
 bcn('block')('element')('modifier');
 ```
 
-## Functions
-
-<dl>
-<dt><a href="#bemcn">bemcn(ep, mp, wbd)</a> ⇒ <code><a href="#b">b</a></code></dt>
-<dd><p>BEM class names</p>
-</dd>
-<dt><a href="#b">b(v)</a> ⇒ <code><a href="#e">e</a></code></dt>
-<dd><p>block creator</p>
-</dd>
-<dt><a href="#e">e([v])</a> ⇒ <code><a href="#e">e</a></code></dt>
-<dd><p>element creator</p>
-</dd>
-<dt><a href="#m">m([v], [wb])</a> ⇒ <code>string</code></dt>
-<dd><p>modifier and result creator</p>
-</dd>
-</dl>
-
-<a name="bemcn"></a>
-
-## bemcn(ep, mp, wbd) ⇒ [<code>b</code>](#b)
-BEM class names
-
-**Kind**: global function  
-**Returns**: [<code>b</code>](#b) - - block creator  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| ep | <code>string</code> | element prefix |
-| mp | <code>string</code> | modifier prefix |
-| wbd | <code>string</code> | with base class name (default value) |
-
-<a name="b"></a>
-
-## b(v) ⇒ [<code>e</code>](#e)
-block creator
-
-**Kind**: global function  
-**Returns**: [<code>e</code>](#e) - - element creator  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| v | <code>string</code> | block name |
-
-<a name="e"></a>
-
-## e([v]) ⇒ [<code>e</code>](#e)
-element creator
-
-**Kind**: global function  
-**Returns**: [<code>e</code>](#e) - - element creator  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| [v] | <code>string</code> | element name |
-
-<a name="m"></a>
-
-## m([v], [wb]) ⇒ <code>string</code>
-modifier and result creator
-
-**Kind**: global function  
-**Returns**: <code>string</code> - - result  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| [v] | <code>string</code> | modifier name |
-| [wb] | <code>boolean</code> | with base class name (default wbd) |
-
+{{>main}}
 
 ## Example
 

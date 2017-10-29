@@ -4,9 +4,10 @@
      * @description BEM class names
      * @param {string} ep - element prefix
      * @param {string} mp - modifier prefix
+     * @param {string} wbd - with base class name (default value)
      * @return {b} - block creator
      */
-    function bemcn(ep, mp) {
+    function bemcn(ep, mp, wbd) {
         /**
          * @function b
          * @description block creator
@@ -27,11 +28,12 @@
                  * @function m
                  * @description modifier and result creator
                  * @param {string=} v - modifier name
-                 * @param {boolean=} wb - with base class name
+                 * @param {boolean=} wb - with base class name (default wbd)
                  * @return {string} - result
                  */
                 return function m(v, wb) {
                     var mv = v ? ev + mp + v : ev;
+                    wb = typeof wb === 'undefined' ? wbd : wb;
                     return v && wb ? ev + ' ' + mv : mv;
                 };
             };
