@@ -20,7 +20,7 @@
              * @function e
              * @description element creator
              * @param {string=} v - element name
-             * @return {e} - element creator
+             * @return {m} - modifier and result creator
              */
             return function e(v) {
                 var ev = v ? bv + ep + v : bv;

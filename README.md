@@ -77,7 +77,7 @@ bcn('block')('element')('modifier');
 <dt><a href="#b">b(v)</a> ⇒ <code><a href="#e">e</a></code></dt>
 <dd><p>block creator</p>
 </dd>
-<dt><a href="#e">e([v])</a> ⇒ <code><a href="#e">e</a></code></dt>
+<dt><a href="#e">e([v])</a> ⇒ <code><a href="#m">m</a></code></dt>
 <dd><p>element creator</p>
 </dd>
 <dt><a href="#m">m([v], [wb])</a> ⇒ <code>string</code></dt>
@@ -113,11 +113,11 @@ block creator
 
 <a name="e"></a>
 
-## e([v]) ⇒ [<code>e</code>](#e)
+## e([v]) ⇒ [<code>m</code>](#m)
 element creator
 
 **Kind**: global function  
-**Returns**: [<code>e</code>](#e) - - element creator  
+**Returns**: [<code>m</code>](#m) - - modifier and result creator  
 
 | Param | Type | Description |
 | --- | --- | --- |
