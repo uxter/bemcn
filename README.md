@@ -71,7 +71,7 @@ bcn('block')('element')('modifier');
 ## Functions
 
 <dl>
-<dt><a href="#bemcn">bemcn(ep, mp, wbd)</a> ⇒ <code><a href="#b">b</a></code></dt>
+<dt><a href="#bemcn">bemcn(ep, mp, [wbd])</a> ⇒ <code><a href="#b">b</a></code></dt>
 <dd><p>BEM class names</p>
 </dd>
 <dt><a href="#b">b(v)</a> ⇒ <code><a href="#e">e</a></code></dt>
@@ -87,7 +87,7 @@ bcn('block')('element')('modifier');
 
 <a name="bemcn"></a>
 
-## bemcn(ep, mp, wbd) ⇒ [<code>b</code>](#b)
+## bemcn(ep, mp, [wbd]) ⇒ [<code>b</code>](#b)
 BEM class names
 
 **Kind**: global function  
@@ -97,7 +97,7 @@ BEM class names
 | --- | --- | --- |
 | ep | <code>string</code> | element prefix |
 | mp | <code>string</code> | modifier prefix |
-| wbd | <code>string</code> | with base class name (default value) |
+| [wbd] | <code>boolean</code> | with base class name (default value) |
 
 <a name="b"></a>
 

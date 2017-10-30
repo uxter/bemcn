@@ -4,7 +4,7 @@
      * @description BEM class names
      * @param {string} ep - element prefix
      * @param {string} mp - modifier prefix
-     * @param {string} wbd - with base class name (default value)
+     * @param {boolean=} wbd - with base class name (default value)
      * @return {b} - block creator
      */
     function bemcn(ep, mp, wbd) {
